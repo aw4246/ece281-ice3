@@ -22,3 +22,8 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+
+![waveform test cases](ripple_adder_waveform.png)
+
+## documentation statememt: referred to both of these websites: https://allaboutfpga.com/4-bit-ripple-carry-adder-vhdl-code/?srsltid=AfmBOopA3OfE7vmLQ40xgQ4LtCzBDfA97FSok9keeMlOIrkRfoZgo45K, https://www.youtube.com/watch?v=ms4FfqBFVAQ to better understand the adder and how to work vivado. No other help received. 
